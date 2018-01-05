@@ -1,0 +1,1 @@
+My personal blog; created using the [Jekyll](https://jekyllrb.com/) site generator and [Minimal Matters](https://github.com/mmistakes/minimal-mistakes) theme.
