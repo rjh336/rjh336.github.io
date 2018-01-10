@@ -25,11 +25,13 @@
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
+    /*padding-right: 5%*/
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
+    /*padding-right: 5%*/
   }
 
   .page__inner-wrap {
@@ -67,6 +69,7 @@
 }
 
 .page__content {
+  /* text-align: justify; */
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
@@ -423,4 +426,12 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+}
+
+/* Added by rjh336
+==========================================================================*/
+.center-image
+{
+    margin: 0 auto;
+    display: block;
 }
